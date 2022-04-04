@@ -81,6 +81,16 @@ body{
     height: 245px;
 }
 
+#banner:hover{
+    transform: scale(1.05);
+    transition: all 0.5s ease;
+}
+
+#banner:not(:hover){
+    transform: scale(1.00);
+    transition: all 0.2s ease;
+}
+
 .borderUp{
     width: 100%;
     border-top:#3ebd37 solid 6px;
