@@ -72,6 +72,8 @@ body{
     
 }
 
+/* HLAVNY BANNER */
+
 #banner{
     position: relative;
     background-image: url(./img/mainBanner.jpg);
@@ -90,6 +92,10 @@ body{
     transform: scale(1.00);
     transition: all 0.2s ease;
 }
+
+/* KONIEC VLASTNOSTI HLAVNEHO BANNERA */
+
+
 
 .borderUp{
     width: 100%;
